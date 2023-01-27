@@ -1,0 +1,46 @@
+.sign-in-container {
+  .api_error {
+    color: red;
+  }
+  position: relative;
+  margin-left: 25%;
+  margin-right: 25%;
+
+  padding: 70px 20px;
+  border-radius: 5px;
+  text-align: center;
+  .loading-component {
+    margin-top: 20px;
+  }
+  .submit-button {
+    font-weight: 500;
+    color: white;
+    margin-top: 31px;
+    background-color: #00adb5;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: #333;
+      transition: 0.5s;
+      transform: scale(1.1);
+    }
+  }
+
+  h2 {
+    margin: 10px 0;
+    text-align: center;
+  }
+  .error-message {
+    font-size: smaller;
+    padding: 0;
+    font-weight: 300;
+    color: red;
+
+    .danger {
+      color: red;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  h1 {
+    font-size: 10rem;
+    color: #00adb5;
+    text-shadow: 2px 2px 4px #ccc;
+  }
+  h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-top: 2rem;
+    text-shadow: 2px 2px 4px #ccc;
+  }
+  button {
+    background-color: #00adb5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    &:hover {
+      background-color: #333;
+    }
+  }
+}
