@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
-const PASSWORD = process.env.MONGODB_PASSWORD;
-const mongoDbURI = `mongodb+srv://myezidapicluster:${PASSWORD}@ezidapicluster.vmloopp.mongodb.net/?retryWrites=true&w=majority`;
+const CLUSTER = process.env.MONGODB_CLUSTER;
+const mongoDbURI = `${CLUSTER}`;
 // important links
 // //www.youtube.com/watch?v=u9kxYilQ9l8.
 // https://www.youtube.com/watch?v=_svzevhv4vg
