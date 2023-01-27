@@ -32,7 +32,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installing
 
 1. Clone the repository:
-   git clone https://github.com/<username>/ezid-sms-authentication.git
+   git clone https://github.com/Raghavsharma2001/EZID-SMS-AUTH.git
 
 Copy code
 
